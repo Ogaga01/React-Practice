@@ -1,0 +1,40 @@
+.wrapper {
+    width: 40%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    background-color: #858694;
+    width: 100%;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 25%;
+    border: 1px solid #D1D1D1;
+    background-color: #E0E0E0;
+    height: 60px;
+}
+
+.orange {
+    background-color: #F5913E;
+}
+
+.double {
+    width: 50%;
+}
