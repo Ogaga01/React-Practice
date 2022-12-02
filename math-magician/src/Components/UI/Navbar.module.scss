@@ -1,0 +1,27 @@
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    align-items: center;
+    width: 100%;
+}
+
+.navitems {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    font-size: 25px;
+}
+
+.navlink {
+    color: blue;
+    box-sizing: border-box;
+    padding: 0 5px;
+    margin-right: 5px;
+
+    &:not(:last-child) {
+        border-right: 2px solid black;
+        
+    }
+}
